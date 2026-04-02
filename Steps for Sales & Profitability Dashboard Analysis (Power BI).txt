@@ -1,0 +1,43 @@
+step 1 making new measures
+
+1. Total Sales = SUM(sales[Sales])
+
+2. Total Profit = SUM(sales[Profit])
+
+3. Profit Margin = DIVIDE([Total Profit], [Total Sales])
+
+step 2
+
+making card visuals which displays the total sales, total profit and the profit margin
+
+step 3
+
+go to table view and make a new coloumn and run this query:
+
+1. Month Year = FORMAT(sales[Order Date], "MMM YYYY")
+2. top left change the data type to date and then format to mmmm and yyyy
+
+Step 4 : plotting few graphs
+
+1. Total profit and total sales by month
+choose line graph 
+select month and total profit and total sales
+
+2. Total profit by category 
+choose bar chart and select category and total profit
+
+3. Total profit by region
+choose bar chart and select region and total profit
+
+step 5 : adding slicers
+
+we add slicers here to help see our graphs in a different manner 
+here we have used year, category and state
+
+step 6 : rectification of titles, adding descriptive text and choosing color scheme
+
+to rectify the graphs we change the format of the cards to show the rupees symbol along with the change in profit margin where we convert it from decimal to %
+
+changing the titles of all the graphs and adding insights
+
+adding insight text on the top right corner and a descriptive definition of the graphs and the data to the middle right 
